@@ -31,6 +31,8 @@
 		13E7469C2B4E9A63007D5C15 /* 5297.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5297.swift; sourceTree = "<group>"; };
 		13E7469E2B4ED80F007D5C15 /* 1919.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1919.swift; sourceTree = "<group>"; };
 		13E746A02B4EDCC0007D5C15 /* 2504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2504.swift; sourceTree = "<group>"; };
+		13F6DAD12B54404C00573B86 /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
+		13F6DAD32B55510A00573B86 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				13E746A22B4EE5E8007D5C15 /* 0x03 */,
 				13E746A32B4EE5F8007D5C15 /* 0x04 */,
 				131090B92B500D4300CF4A94 /* 0x05 */,
+				13F6DAD02B543FF100573B86 /* 0x0C */,
 			);
 			path = CodingTest2;
 			sourceTree = "<group>";
@@ -108,6 +111,15 @@
 				13E746A02B4EDCC0007D5C15 /* 2504.swift */,
 			);
 			path = 0x04;
+			sourceTree = "<group>";
+		};
+		13F6DAD02B543FF100573B86 /* 0x0C */ = {
+			isa = PBXGroup;
+			children = (
+				13F6DAD12B54404C00573B86 /* 15649.swift */,
+				13F6DAD32B55510A00573B86 /* 15650.swift */,
+			);
+			path = 0x0C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
