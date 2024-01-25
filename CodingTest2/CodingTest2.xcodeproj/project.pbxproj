@@ -23,6 +23,14 @@
 		131090BC2B50176F00CF4A94 /* 2493.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2493.swift; sourceTree = "<group>"; };
 		131090BE2B50973400CF4A94 /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
 		131090C02B51331B00CF4A94 /* 5430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5430.swift; sourceTree = "<group>"; };
+		133FD08F2B5C1A0100F21A39 /* 6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6603.swift; sourceTree = "<group>"; };
+		1364FBE12B5EE0AA00D89FC9 /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
+		13C8D5B82B5D04FD0057E32C /* 11478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11478.swift; sourceTree = "<group>"; };
+		13C8D5BA2B5D27390057E32C /* 1759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1759.swift; sourceTree = "<group>"; };
+		13C8D5BC2B5D9CE80057E32C /* 16987.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16987.swift; sourceTree = "<group>"; };
+		13CADF342B5A2F2A0046FDCB /* 10972.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10972.swift; sourceTree = "<group>"; };
+		13CADF362B5BB63C0046FDCB /* 10974.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10974.swift; sourceTree = "<group>"; };
+		13CADF382B5BE13D0046FDCB /* 1182.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1182.swift; sourceTree = "<group>"; };
 		13E7468B2B4DE73F007D5C15 /* CodingTest2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest2; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E7468E2B4DE73F007D5C15 /* 10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10808.swift; sourceTree = "<group>"; };
 		13E746952B4DED96007D5C15 /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 		13F6DAE32B582A1B00573B86 /* 15664.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15664.swift; sourceTree = "<group>"; };
 		13F6DAE52B58507E00573B86 /* 15665.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15665.swift; sourceTree = "<group>"; };
 		13F6DAE72B586E7B00573B86 /* 15666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15666.swift; sourceTree = "<group>"; };
+		13F6DAE92B59497700573B86 /* 9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9663.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,15 @@
 			path = 0x05;
 			sourceTree = "<group>";
 		};
+		13C8D5B72B5D04EA0057E32C /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				13C8D5B82B5D04FD0057E32C /* 11478.swift */,
+				1364FBE12B5EE0AA00D89FC9 /* 11725.swift */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
 		13E746822B4DE73F007D5C15 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +101,7 @@
 		13E7468D2B4DE73F007D5C15 /* CodingTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				13C8D5B72B5D04EA0057E32C /* Silver */,
 				13E7469B2B4E9A47007D5C15 /* 0x02 */,
 				13E746A22B4EE5E8007D5C15 /* 0x03 */,
 				13E746A32B4EE5F8007D5C15 /* 0x04 */,
@@ -138,6 +157,13 @@
 				13F6DAE32B582A1B00573B86 /* 15664.swift */,
 				13F6DAE52B58507E00573B86 /* 15665.swift */,
 				13F6DAE72B586E7B00573B86 /* 15666.swift */,
+				13F6DAE92B59497700573B86 /* 9663.swift */,
+				13CADF342B5A2F2A0046FDCB /* 10972.swift */,
+				13CADF362B5BB63C0046FDCB /* 10974.swift */,
+				13CADF382B5BE13D0046FDCB /* 1182.swift */,
+				133FD08F2B5C1A0100F21A39 /* 6603.swift */,
+				13C8D5BA2B5D27390057E32C /* 1759.swift */,
+				13C8D5BC2B5D9CE80057E32C /* 16987.swift */,
 			);
 			path = 0x0C;
 			sourceTree = "<group>";
@@ -174,7 +200,7 @@
 				TargetAttributes = {
 					13E7468A2B4DE73F007D5C15 = {
 						CreatedOnToolsVersion = 15.1;
-						LastSwiftMigration = 1510;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
