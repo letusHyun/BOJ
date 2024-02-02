@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		13332DB12B6C9D2000B2D16A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13332DB02B6C9D2000B2D16A /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		13E746892B4DE73F007D5C15 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +27,9 @@
 		131090BC2B50176F00CF4A94 /* 2493.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2493.swift; sourceTree = "<group>"; };
 		131090BE2B50973400CF4A94 /* 10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10845.swift; sourceTree = "<group>"; };
 		131090C02B51331B00CF4A94 /* 5430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5430.swift; sourceTree = "<group>"; };
+		13332DAD2B6BFA3500B2D16A /* 3184.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3184.swift; sourceTree = "<group>"; };
+		13332DAF2B6C9D2000B2D16A /* CodingTest2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodingTest2-Bridging-Header.h"; sourceTree = "<group>"; };
+		13332DB02B6C9D2000B2D16A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		133FD08F2B5C1A0100F21A39 /* 6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6603.swift; sourceTree = "<group>"; };
 		134931F72B624CB10003A2BB /* 13335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13335.swift; sourceTree = "<group>"; };
 		134931F92B63D2A60003A2BB /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
@@ -48,6 +55,8 @@
 		13CADF362B5BB63C0046FDCB /* 10974.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10974.swift; sourceTree = "<group>"; };
 		13CADF382B5BE13D0046FDCB /* 1182.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1182.swift; sourceTree = "<group>"; };
 		13E2759D2B682CF300024856 /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
+		13E2759F2B6B792400024856 /* 1926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1926.swift; sourceTree = "<group>"; };
+		13E275A12B6B8E5900024856 /* 1743.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1743.swift; sourceTree = "<group>"; };
 		13E7468B2B4DE73F007D5C15 /* CodingTest2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest2; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E7468E2B4DE73F007D5C15 /* 10808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10808.swift; sourceTree = "<group>"; };
 		13E746952B4DED96007D5C15 /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
@@ -102,6 +111,7 @@
 		13C8D5B72B5D04EA0057E32C /* Silver */ = {
 			isa = PBXGroup;
 			children = (
+				13332DAF2B6C9D2000B2D16A /* CodingTest2-Bridging-Header.h */,
 				13C8D5B82B5D04FD0057E32C /* 11478.swift */,
 				1364FBE12B5EE0AA00D89FC9 /* 11725.swift */,
 				134931F72B624CB10003A2BB /* 13335.swift */,
@@ -119,6 +129,10 @@
 				1349320F2B661A2F0003A2BB /* 2583.swift */,
 				134932112B664D1B0003A2BB /* 2644.swift */,
 				13E2759D2B682CF300024856 /* 1991.swift */,
+				13E2759F2B6B792400024856 /* 1926.swift */,
+				13E275A12B6B8E5900024856 /* 1743.swift */,
+				13332DAD2B6BFA3500B2D16A /* 3184.swift */,
+				13332DB02B6C9D2000B2D16A /* main.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
@@ -269,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13332DB12B6C9D2000B2D16A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +416,7 @@
 				DEVELOPMENT_TEAM = BH624LXP8S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodingTest2/Silver/CodingTest2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -414,6 +430,7 @@
 				DEVELOPMENT_TEAM = BH624LXP8S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodingTest2/Silver/CodingTest2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
