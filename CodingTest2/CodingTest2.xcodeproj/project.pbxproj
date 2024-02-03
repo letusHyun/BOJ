@@ -27,6 +27,8 @@
 		13332DAF2B6C9D2000B2D16A /* CodingTest2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodingTest2-Bridging-Header.h"; sourceTree = "<group>"; };
 		13332DB02B6C9D2000B2D16A /* 1303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1303.swift; sourceTree = "<group>"; };
 		13332DB42B6CB3A500B2D16A /* 24480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24480.swift; sourceTree = "<group>"; };
+		13332DB62B6CE03B00B2D16A /* 13565.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13565.swift; sourceTree = "<group>"; };
+		13332DB82B6E451C00B2D16A /* 21736.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21736.swift; sourceTree = "<group>"; };
 		133FD08F2B5C1A0100F21A39 /* 6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6603.swift; sourceTree = "<group>"; };
 		134931F72B624CB10003A2BB /* 13335.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13335.swift; sourceTree = "<group>"; };
 		134931F92B63D2A60003A2BB /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 				13332DAD2B6BFA3500B2D16A /* 3184.swift */,
 				13332DB02B6C9D2000B2D16A /* 1303.swift */,
 				13332DB42B6CB3A500B2D16A /* 24480.swift */,
+				13332DB62B6CE03B00B2D16A /* 13565.swift */,
+				13332DB82B6E451C00B2D16A /* 21736.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
