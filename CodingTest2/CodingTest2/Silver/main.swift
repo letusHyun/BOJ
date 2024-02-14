@@ -1,71 +1,81 @@
 //
-//  11279.swift
-//  최대 힙
+//  1927.swift
+//  최소힙
 //
-//  Created by SeokHyun on 2/12/24.
+//  Created by SeokHyun on 2/14/24.
 //
 
-let n = Int(readLine()!)!
+var n = Int(readLine()!)!
 var heap = Array(repeating: 0, count: 100_000)
-var count = 0
 var lastIndex = -1
-while count < n {
+for _ in 0..<n {
   let x = Int(readLine()!)!
-  if x != 0 {
-    insertHeap(x) // 힙 추가
+  if x == 0 {
+    minHeap()
   } else {
-    maxHeap()
+    insertHeap(x)
   }
-  count += 1
 }
 
 func insertHeap(_ x: Int) {
   lastIndex += 1
   heap[lastIndex] = x
+  var currentIndex = lastIndex
   
-  var curIndex = lastIndex
-  
-  while (curIndex-1)/2 >= 0, heap[curIndex] > heap[(curIndex-1)/2] {
-    heap.swapAt(curIndex, (curIndex-1)/2)
-    curIndex = (curIndex-1)/2
+  while currentIndex > 0, heap[(currentIndex-1)/2] > heap[currentIndex] {
+    let parentIndex = (currentIndex-1)/2
+    heap.swapAt(parentIndex, currentIndex)
+    currentIndex = parentIndex
   }
 }
 
-func maxHeap() {
-  if lastIndex <= 0 { // 예외처리
-    print("0")
+func minHeap() {
+  var currentIndex = 0
+  
+  guard lastIndex >= 0 else {
+    print(0)
     return
   }
-  print(heap[0]) // 1. maxHeap 출력
-  // 2. 마지막 노드를 루트노드에 넣음
-  heap[0] = heap[lastIndex]
-  lastIndex -= 1
+  print(heap[0])
   
-  // 3. 힙 정렬
-  var curIndex = 0
   var maxChildIndex: Int
-  
-  // 반복문
-  // a. 자식노드의 max값 찾기
-  // b. 부모노드와 비교하고, 부모가 더 작으면 자식노드와 swap하고 a번 반복, 아니라면 종료
-  
-  while true {
-    let leftChildIndex = curIndex*2+1
-    let rightChildIndex = curIndex*2+2
-    if lastIndex < leftChildIndex { // 자식노드가 없다면
-      return
-    } else if lastIndex == leftChildIndex { // 왼쪽 자식노드만 있다면
-      maxChildIndex = lastIndex
-    } else { // 왼쪽, 오른쪽 자식노드가 있다면
-      if heap[leftChildIndex] > heap[rightChildIndex] {
-        maxChildIndex = leftChildIndex
-      } else {
-        maxChildIndex = rightChildIndex
-      }
+  // 자식노드가 존재하지 않는 경우
+  if lastIndex < 1 {
+    return
+  } else if lastIndex == 1 {
+    maxChildIndex = lastIndex
+  } else {
+    let leftChildIndex = currentIndex*2-1
+    let rightChildIndex = currentIndex*2-2
+    if heap[leftChildIndex] > heap[rightChildIndex] {
+      maxChildIndex = leftChildIndex
+    } else {
+      maxChildIndex = rightChildIndex
     }
     
-    guard heap[curIndex] <= heap[maxChildIndex] else { return } // 부모가 자식보다 더 크다면 return
-    heap.swapAt(curIndex, maxChildIndex) // 부모와 자식 swap
-    curIndex = maxChildIndex
+    while currentIndex*2-1 >= lastIndex {
+      
+    }
   }
+  
+  // 왼쪽 자식노드만 존재하는 경우
+  
+  // 오른쪽 자식노드도 존재하는 경우
 }
+
+// MARK: - Note
+/*
+ Min Heap
+ - insertHeap
+  - 값을 넣고, 부모의 값이 현재(자식)값보다 크다면, 자식을 부모와 스왑
+   - 값을 넣을 때
+      - 아무것도 안넣은 상태라면 넣고 종료
+      - 나머지의 경우, 넣고 heapify
+ - removeHeap
+  - 원소가 비어있는 상태라면, 0 출력하고 return
+  - 나머지의 경우, 출력하고 heapify
+  - heapify:
+    - 자식노드와 비교했을 때, 자식노드가 더 작으면 반복
+      - 자식노드끼리 maxIndex를 판별해야 함
+      - 부모노드와 자식노드를 스왑
+ */
